@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="demo.popups.django_popup_view_field" />
+          <option value="studentDBapp.views.StudentDBapp" />
+          <option value="studentDBapp.views.StudentDBApp" />
+          <option value="studentDBApp.views.StudentDBApp" />
+          <option value="studentDBApp.views.forms" />
+          <option value="studentDBApp.views.render" />
+          <option value="studentDBApp.views.formsobj" />
+          <option value="studentDBApp.views.StudentinputDBApp" />
+          <option value="studentDBApp.views.request" />
+          <option value="studentDBApp.views.formobj" />
+          <option value="ModelFormapp.views.render" />
+          <option value="ModelFormapp.views.ModelFormApp" />
+          <option value="ModelFormProject.urls.views" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

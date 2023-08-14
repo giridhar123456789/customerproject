@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="blue">
+<table border="2" align="center">
+    <tr><th>cid</th><th>cname</th><th>cjob</th><th>cbranch</th><th>cbalance</th></tr>
+        {% for c in records %}
+        <tr><td>{{ c.cid }}</td>
+            <td>{{ c.cname }}</td>
+            <td>{{ c.cjob }}</td>
+            <td>{{ c.cbranch }}</td>
+            <td>{{ c.cbalance }}</td>
+        </tr>
+        {% endfor %}
+</table>
+
+</body>
+</html>
